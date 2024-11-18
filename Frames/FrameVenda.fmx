@@ -1,0 +1,90 @@
+object FremVenda: TFremVenda
+  Size.Width = 437.000000000000000000
+  Size.Height = 90.000000000000000000
+  Size.PlatformDefault = False
+  object recFundo: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 7.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Margins.Bottom = 7.000000000000000000
+    Sides = [Bottom]
+    Size.Width = 427.000000000000000000
+    Size.Height = 76.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 6.000000000000000000
+    YRadius = 6.000000000000000000
+    object lblIDVenda: TLabel
+      Align = Bottom
+      Anchors = [akLeft, akBottom]
+      StyledSettings = [Style, FontColor]
+      Locked = True
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 100.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 26.000000000000000000
+      Size.Width = 317.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 11.000000000000000000
+      TextSettings.Trimming = None
+      Text = 'lblIDVenda'
+      TabOrder = 1
+    end
+    object lblValorVenda: TLabel
+      Align = Bottom
+      Anchors = [akLeft, akBottom]
+      StyledSettings = []
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 250.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 54.000000000000000000
+      Size.Width = 167.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBlue
+      TextSettings.Trimming = None
+      Text = 'lblValorVenda'
+      TabOrder = 2
+    end
+    object lblcliente: TLabel
+      Align = Top
+      StyledSettings = [FontColor]
+      Margins.Left = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 417.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.Trimming = None
+      Text = 'ppppppppppppppppppppppppppppppppp'
+      TabOrder = 3
+    end
+    object lblTipoPagamento: TLabel
+      Align = Center
+      StyledSettings = []
+      Margins.Left = 150.000000000000000000
+      Margins.Top = 64.000000000000000000
+      Size.Width = 273.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 11.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claGreen
+      TextSettings.Trimming = None
+      Text = 'lblTipoPagamento'
+      TabOrder = 5
+    end
+  end
+end

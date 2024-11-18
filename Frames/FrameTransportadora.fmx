@@ -1,0 +1,134 @@
+object FremTrasportadora: TFremTrasportadora
+  Size.Width = 467.000000000000000000
+  Size.Height = 115.000000000000000000
+  Size.PlatformDefault = False
+  object recFundo: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Sides = [Bottom]
+    Size.Width = 457.000000000000000000
+    Size.Height = 95.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 6.000000000000000000
+    YRadius = 6.000000000000000000
+    object lblCnpjTrasnp: TLabel
+      Align = Bottom
+      Anchors = [akLeft, akBottom]
+      StyledSettings = [Style, FontColor]
+      Locked = True
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 150.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 44.000000000000000000
+      Size.Width = 297.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 11.000000000000000000
+      TextSettings.Trimming = None
+      Text = 'lblCnpjTrasnp'
+      TabOrder = 1
+    end
+    object lblUFTransp: TLabel
+      Align = Bottom
+      Anchors = [akLeft, akBottom]
+      StyledSettings = []
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 300.000000000000000000
+      Margins.Bottom = 6.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 72.000000000000000000
+      Size.Width = 147.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 11.000000000000000000
+      TextSettings.Trimming = None
+      Text = 'lblUFTransp'
+      TabOrder = 2
+    end
+    object btnAdicionar1: TRoundRect
+      Align = Center
+      Anchors = [akRight, akBottom]
+      Fill.Color = xFF81A3FF
+      Margins.Left = 280.000000000000000000
+      Margins.Top = 90.000000000000000000
+      Size.Width = 93.000000000000000000
+      Size.Height = 34.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Label3: TLabel
+        Align = Center
+        StyledSettings = [FontColor]
+        Locked = True
+        Size.Width = 69.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Arial'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TextSettings.Trimming = None
+        Text = 'Adicionar'
+        TabOrder = 0
+      end
+    end
+    object lblnomeTransp: TLabel
+      Align = Center
+      Anchors = [akLeft, akTop]
+      StyledSettings = [FontColor]
+      Margins.Left = 70.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 374.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 11.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.Trimming = None
+      Text = 'ppppppppppppppppppppppppppppppppp'
+      TabOrder = 4
+    end
+    object imgFoto: TRectangle
+      Align = Center
+      Fill.Bitmap.Bitmap.PNG = {
+        89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+        870000000473424954080808087C086488000002B4494441546881EDD83F881D
+        5514C7F1CF19762522A2216AA3D1468C222A28A4880B11ED0286158985360A62
+        C046115309014D152B6D1210B1081626216082C47F4D5016448C829516D1F827
+        5157888D9804D6391633595E5EDE6C7677226F1ECC172E6FE69E7BCEBDBF79E7
+        9EF9434F4F4F4F4F4FCFF8086C1DD3DC27F16DDB20118A6CBF969593ECA57CBE
+        6D9CE24A2C669C4C8D7B017885D8D86CCE39BCDE64ED8080D818A2711FA63847
+        D9E83D012994372E659D000166704393B103295491728E1CCAF57826C46CCA59
+        BC3DCAAF330288D3E4918BFBF21F629678821C29A0EB29742CE53C1ED290465D
+        17B040BC1F621A8F8D1AD07501280F56BFB16D947502043896F24F0D69D4A14D
+        9C0F12879B8C21A693B7C85DF866D1128A1C47A3D853AFE0F0CAFCA2243EC736
+        4C77E81F581E210233C44CCA5F26610F341262FD440BA0539B78914CF9338EAB
+        DE181F08B1BE3EBE84A954EE5CC52485A59E7197C7F1E18E9467C8ED38840B6F
+        8A45CAC789BD21D60DFB4CE1C43226FB0CA7F022F1026EC1F7E46BD88FBB71DF
+        0A055C8F277173BDF8BFC987718638802DF5B8A3E44BE423C95C886B2E8AB28C
+        B2F52BD650ECAACF4F501C20FEA84A9AA72A4171BE5D59B5B312153F120BC427
+        755BA8FA5C47F1EA08BFF89A5858A25EBF89B5C459E28B4A0CB8893845FC8020
+        3E6D29E076ECA88F9F1BB8C6DBEBBE1DD830EC3745DE8FB52937536C76C9EDBA
+        FC1077845893CAFD38571BE6898FC8A7712DF95E8ADF5798468B93E024C5BD64
+        8977076CFBC83D14F750BE91ECB38A47A0DBAA7429060317C457C45FAE58352B
+        76D7577BD340E7A63A1376B70C1E1F4425E21D3C4B1CAD03377E31580577D6A9
+        7A1A2F572D7EABFA6C681B7C1DF17188B2DECCFFD662AE6A1B7888ADC4FC4011
+        99C7A34D8347DE1C2EC35DB815DFE1A7552EF2725C8D0BDF8ABEC4D9FF699E9E
+        9E9E9E9E9E9E56FC07FF420A01775D8C400000000049454E44AE426082}
+      Fill.Bitmap.WrapMode = TileStretch
+      Fill.Kind = Bitmap
+      Margins.Left = 40.000000000000000000
+      Margins.Right = 400.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+  end
+end

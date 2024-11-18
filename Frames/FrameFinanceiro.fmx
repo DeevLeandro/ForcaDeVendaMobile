@@ -1,0 +1,100 @@
+object FremFincanceiro: TFremFincanceiro
+  Size.Width = 428.000000000000000000
+  Size.Height = 111.000000000000000000
+  Size.PlatformDefault = False
+  object recFundo: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Locked = True
+    HitTest = False
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Sides = [Bottom]
+    Size.Width = 418.000000000000000000
+    Size.Height = 91.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 6.000000000000000000
+    YRadius = 6.000000000000000000
+    object lblQtdeParcela: TLabel
+      Align = Bottom
+      Anchors = [akLeft, akBottom]
+      StyledSettings = [Style, FontColor]
+      Locked = True
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 100.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 35.000000000000000000
+      Size.Width = 308.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Trimming = None
+      Text = 'lblQtdeParcela'
+      TabOrder = 1
+    end
+    object lblIntervalo: TLabel
+      Align = Bottom
+      Anchors = [akLeft, akBottom]
+      StyledSettings = []
+      Locked = True
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 300.000000000000000000
+      Margins.Bottom = 6.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 68.000000000000000000
+      Size.Width = 108.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.Trimming = None
+      Text = 'lblIntervalo'
+      TabOrder = 2
+    end
+    object lblDesscricao: TLabel
+      Align = Top
+      StyledSettings = [FontColor]
+      Locked = True
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 408.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.Trimming = None
+      Text = 'ppppppppppppppppppppppppppppppppp'
+      TabOrder = 4
+    end
+    object btnGerar: TRectangle
+      Align = Center
+      Fill.Color = xFF81A3FF
+      Margins.Left = 300.000000000000000000
+      Margins.Top = 50.000000000000000000
+      Size.Width = 84.000000000000000000
+      Size.Height = 38.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 8.000000000000000000
+      YRadius = 8.000000000000000000
+      object Label3: TLabel
+        Align = Center
+        StyledSettings = [FontColor]
+        Locked = True
+        Size.Width = 69.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Arial'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TextSettings.Trimming = None
+        Text = 'Gerar'
+        TabOrder = 0
+      end
+    end
+  end
+end

@@ -1,0 +1,103 @@
+object FrmCamera1: TFrmCamera1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 662
+  ClientWidth = 455
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object imgCamera: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Contents
+    Size.Width = 455.000000000000000000
+    Size.Height = 662.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Layout4: TLayout
+    Align = Top
+    Size.Width = 455.000000000000000000
+    Size.Height = 38.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle17: TRectangle
+      Align = Client
+      Fill.Color = xFF4F7FFF
+      Margins.Bottom = 1.000000000000000000
+      Sides = []
+      Size.Width = 455.000000000000000000
+      Size.Height = 37.000000000000000000
+      Size.PlatformDefault = False
+      object Label8: TLabel
+        Align = Center
+        StyledSettings = [FontColor]
+        Locked = True
+        Margins.Left = 35.000000000000000000
+        Size.Width = 172.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Arial'
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00090000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TextSettings.Trimming = None
+        Text = 'Ler Qrcode'
+        TabOrder = 1
+      end
+      object btnFechar: TRectangle
+        Align = Right
+        Fill.Bitmap.Bitmap.PNG = {
+          89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+          870000000473424954080808087C0864880000013E494441546881ED99C11282
+          300C445FD5A3BFED5939EA0FFA057AD0031E68860C035A2048C3742F3885C9EE
+          C654D208050505055E103C73EDD4754923A1C3F513490F0135708CD7C0322624
+          AEE69A0D317802DEC059AD5B9AD0993F47AE5347C3A4A0D064E34E93911AB8C6
+          F53D3626428C458C2D3CF7C8ADB58C86CE4A0D3CB035D1275E38F4B73D0B2250
+          089ED898E813DF8D6D52A6BA3EAD4CA48837DD67DF086F713DD5448A78ABFD65
+          4E6C998849986362B5CC8F113294C56CC44F11B47AD90C21D5C421E199BF8B17
+          A464B7EF5E16E205DF4C54C0858CCA66087D265EB47D8D7CCE52BC20D0D67B45
+          2B5CC457F19EA9F8D98DD256E0BA845C6F62D73FA3AE5F64AE5B09D7CD9CEB76
+          DAF581C6F591D2FDA1DEF558C5F5606B53A34597C3DD2EC151112D355E97D8C2
+          65866CFFE0181BFC5F58BDCD2E28282848C3072C71E5C2AE37FDD10000000049
+          454E44AE426082}
+        Fill.Bitmap.WrapMode = TileStretch
+        Fill.Kind = Bitmap
+        Margins.Top = 3.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 3.000000000000000000
+        Position.X = 416.000000000000000000
+        Position.Y = 3.000000000000000000
+        Size.Width = 34.000000000000000000
+        Size.Height = 31.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        OnClick = btnFecharClick
+      end
+    end
+  end
+  object lblErro: TLabel
+    Align = Bottom
+    StyledSettings = [Family, Size]
+    Position.Y = 627.000000000000000000
+    Size.Width = 455.000000000000000000
+    Size.Height = 35.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claCrimson
+    TextSettings.HorzAlign = Center
+    TextSettings.Trimming = None
+    TabOrder = 2
+  end
+  object CameraComponent: TCameraComponent
+    OnSampleBufferReady = CameraComponentSampleBufferReady
+    Left = 168
+    Top = 192
+  end
+end

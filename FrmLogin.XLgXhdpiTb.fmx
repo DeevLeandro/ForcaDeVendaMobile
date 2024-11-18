@@ -1,0 +1,28 @@
+inherited FrmLogin1_XLgXhdpiTb: TFrmLogin1_XLgXhdpiTb
+  ClientHeight = 1256
+  ClientWidth = 800
+  DesignerMasterStyle = 3
+  inherited Layout: TLayout
+    Size.Width = 800.000000000000000000
+    Size.Height = 1256.000000000000000000
+  end
+  inherited Layout1: TLayout
+    Size.Width = 800.000000000000000000
+    Size.Height = 1256.000000000000000000
+    inherited Layout2: TLayout
+      inherited Layout6: TLayout
+        inherited Label2: TLabel
+          TextSettings.Font.StyleExt = {00090000000000000004000000}
+        end
+      end
+      inherited Layout7: TLayout
+        inherited pnlLogin: TRectangle
+          inherited vsblogin: TVertScrollBox
+            Viewport.Width = 342.000000000000000000
+            Viewport.Height = 272.000000000000000000
+          end
+        end
+      end
+    end
+  end
+end

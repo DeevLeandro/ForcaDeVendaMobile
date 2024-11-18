@@ -1,0 +1,239 @@
+inherited FrmVenda1_LgXhdpiPh: TFrmVenda1_LgXhdpiPh
+  ClientHeight = 720
+  ClientWidth = 448
+  DesignerMasterStyle = 2
+  inherited Layout1: TLayout
+    Size.Width = 448.000000000000000000
+    Size.Height = 720.000000000000000000
+    inherited Layout3: TLayout
+      Size.Width = 448.000000000000000000
+      Size.Height = 625.000000000000000000
+      inherited TabControl1: TTabControl
+        Size.Width = 448.000000000000000000
+        Size.Height = 625.000000000000000000
+        Sizes = (
+          448s
+          625s
+          448s
+          625s
+          448s
+          625s
+          448s
+          625s
+          448s
+          625s)
+        inherited TabCliente: TTabItem
+          ExplicitSize.cx = 450.000000000000000000
+          ExplicitSize.cy = 49.000000000000000000
+          inherited Layout7: TLayout
+            Size.Width = 448.000000000000000000
+            inherited RoundRect7: TRoundRect
+              Size.Width = 446.000000000000000000
+              inherited RoundRect8: TRoundRect
+                inherited edtPesquisarCliente: TEdit
+                  TextSettings.Font.StyleExt = {00090000000000000004000000}
+                end
+              end
+            end
+          end
+          inherited pnlvertCliente: TRectangle
+            Size.Width = 448.000000000000000000
+            Size.Height = 568.000000000000000000
+            inherited vsbCliente: TVertScrollBox
+              Size.Width = 448.000000000000000000
+              Size.Height = 568.000000000000000000
+              Viewport.Width = 431.000000000000000000
+              Viewport.Height = 496.000000000000000000
+            end
+          end
+        end
+        inherited TabProduto: TTabItem
+          ExplicitSize.cx = 225.000000000000000000
+          ExplicitSize.cy = 49.000000000000000000
+          inherited Layout8: TLayout
+            Size.Width = 448.000000000000000000
+            inherited RoundRect9: TRoundRect
+              Size.Width = 446.000000000000000000
+              inherited RoundRect10: TRoundRect
+                Margins.Right = 20.000000000000000000
+                inherited btnCamera: TRectangle
+                  Margins.Left = 10.000000000000000000
+                  Margins.Top = 5.000000000000000000
+                  Margins.Bottom = 5.000000000000000000
+                  Position.Y = 5.000000000000000000
+                  Size.Height = 20.000000000000000000
+                end
+              end
+              inherited Layout2: TLayout
+                Position.X = 394.000000000000000000
+                inherited blQtds: TRoundRect
+                  inherited lblQtds: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+            end
+          end
+          inherited pnlvertproduto: TRectangle
+            Size.Width = 448.000000000000000000
+            Size.Height = 568.000000000000000000
+            inherited VsbProduto: TVertScrollBox
+              Size.Width = 448.000000000000000000
+              Size.Height = 568.000000000000000000
+              Viewport.Width = 450.000000000000000000
+              Viewport.Height = 543.000000000000000000
+            end
+          end
+        end
+        inherited TabFinanceiro: TTabItem
+          ExplicitSize.cx = 150.000000000000000000
+          ExplicitSize.cy = 49.000000000000000000
+          inherited Layout11: TLayout
+            Size.Width = 448.000000000000000000
+            inherited RoundRect16: TRoundRect
+              Margins.Bottom = 1.000000000000000000
+              Size.Width = 446.000000000000000000
+              Size.Height = 87.000000000000000000
+              inherited Label20: TLabel
+                TextSettings.Font.StyleExt = {00090000000000000004000000}
+              end
+              inherited Rectangle14: TRectangle
+                Size.Height = 32.000000000000000000
+              end
+              inherited cbxFinanceiro: TComboBox
+                Margins.Bottom = 6.000000000000000000
+              end
+            end
+          end
+          inherited pnlVertFinanceiro: TRectangle
+            Size.Width = 448.000000000000000000
+            Size.Height = 536.000000000000000000
+            inherited vsbFinanceiro: TVertScrollBox
+              Size.Width = 448.000000000000000000
+              Size.Height = 536.000000000000000000
+              Viewport.Width = 431.000000000000000000
+              Viewport.Height = 496.000000000000000000
+            end
+          end
+          inherited pnlVertFinalFinanceiro: TRectangle
+            Position.Y = 97.000000000000000000
+            inherited vsbFinanceiroFinal: TVertScrollBox
+              Viewport.Width = 431.000000000000000000
+              Viewport.Height = 456.000000000000000000
+            end
+          end
+        end
+        inherited TabTransportadora: TTabItem
+          ExplicitSize.cx = 114.000000000000000000
+          ExplicitSize.cy = 49.000000000000000000
+          inherited Layout12: TLayout
+            Size.Width = 448.000000000000000000
+            inherited RoundRect20: TRoundRect
+              Size.Width = 448.000000000000000000
+            end
+          end
+          inherited pnlVertTransporte: TRectangle
+            Size.Width = 448.000000000000000000
+            Size.Height = 576.000000000000000000
+            inherited vsbTrasportadora: TVertScrollBox
+              Size.Width = 448.000000000000000000
+              Size.Height = 576.000000000000000000
+              Viewport.Width = 431.000000000000000000
+              Viewport.Height = 496.000000000000000000
+            end
+          end
+        end
+        inherited TabVenda: TTabItem
+          ExplicitSize.cx = 8.000000000000000000
+          ExplicitSize.cy = 8.000000000000000000
+          inherited Layout4: TLayout
+            Size.Width = 448.000000000000000000
+            inherited Rectangle17: TRectangle
+              Size.Width = 446.000000000000000000
+              inherited Label8: TLabel
+                Margins.Right = 20.000000000000000000
+                TextSettings.Font.StyleExt = {00090000000000000004000000}
+              end
+              inherited btnFechar: TRectangle
+                Position.X = 409.000000000000000000
+              end
+            end
+          end
+          inherited Layout10: TLayout
+            Size.Width = 448.000000000000000000
+            Size.Height = 587.000000000000000000
+            inherited pnlInfoVenda: TRoundRect
+              Margins.Bottom = 1.000000000000000000
+              Size.Width = 446.000000000000000000
+              inherited lbCliente: TLabel
+                Size.Width = 426.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              inherited lbTransportadora: TLabel
+                Size.Width = 446.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            inherited pnlfundovert: TRectangle
+              inherited vbsItensSelecionados: TVertScrollBox
+                Viewport.Width = 436.000000000000000000
+                Viewport.Height = 505.000000000000000000
+              end
+            end
+            inherited rodapevenda: TRectangle
+              Margins.Left = 20.000000000000000000
+              Margins.Right = 20.000000000000000000
+              Position.X = 20.000000000000000000
+              inherited lbValorfinal: TLabel
+                Margins.Left = 10.000000000000000000
+                Size.Width = 426.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+          end
+          inherited StringGrid1: TStringGrid
+            Position.Y = 425.000000000000000000
+            Size.Width = 448.000000000000000000
+            Viewport.Width = 448.000000000000000000
+            Viewport.Height = 176.000000000000000000
+          end
+        end
+      end
+    end
+    inherited pnlBotoes: TLayout
+      Position.Y = 625.000000000000000000
+      Size.Width = 448.000000000000000000
+      inherited RoundRect1: TRoundRect
+        Size.Width = 446.000000000000000000
+        inherited Layout5: TLayout
+          inherited btnProduto: TRectangle
+            Margins.Top = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+          end
+        end
+        inherited Layout6: TLayout
+          Size.Width = 370.000000000000000000
+          inherited Label2: TLabel
+            Margins.Left = 5.000000000000000000
+            TextSettings.Font.StyleExt = {00090000000000000004000000}
+          end
+          inherited Label3: TLabel
+            Margins.Left = 5.000000000000000000
+            TextSettings.Font.StyleExt = {00090000000000000004000000}
+          end
+          inherited Label4: TLabel
+            Size.Width = 72.000000000000000000
+            TextSettings.Font.StyleExt = {00090000000000000004000000}
+          end
+          inherited Label5: TLabel
+            TextSettings.Font.StyleExt = {00090000000000000004000000}
+          end
+          inherited Label6: TLabel
+            Size.Width = 72.000000000000000000
+            TextSettings.Font.StyleExt = {00090000000000000004000000}
+          end
+        end
+      end
+    end
+  end
+end
